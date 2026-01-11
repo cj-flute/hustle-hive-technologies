@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  font-family: "Manrope", sans-serif;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+body,
+p {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+.left-side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #f1f3f2;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .left-side {
+    width: 260px;
+  }
+}
+
+.logo {
+  background-color: #141414;
+  text-align: center;
+}
+.logo img {
+  max-width: 220px;
+  height: auto;
+  margin: 20px auto;
+}
+.left-content {
+  text-align: center;
+}
+
+.left-content ul li {
+  border-bottom-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: block;
+  height: 50px;
+  padding-right: 15px;
+}
+.left-content ul li.active {
+  background-color: #0b6eda;
+}
+.left-content ul li.active a {
+  color: #fff;
+}
+.left-content ul li a {
+  color: #1c1b1f;
+  line-height: 50px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.copyright {
+  background-color: #141414;
+  color: #1c1b1f;
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.copyright p {
+  margin-bottom: 0px;
+  padding-right: 15px;
+  color: #fff;
+}
+.copyright p a {
+  color: #0b6eda;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.copyright p a:hover {
+  color: #1c1b1f;
+}
+
+.right-content {
+  padding: 50px 20px;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
+
+.content a {
+  color: #0b6eda;
+  margin-right: 15px;
+}
+.content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #ddd;
+}
+
+#one > h1 span {
+  color: #0b6eda;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.created ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.content .mt-30 {
+  margin-top: 30px;
+}
+.created ul li span {
+  font-weight: 500;
+}
+
+.content p > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content p span span {
+  font-weight: 500;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.source-credits ul li a {
+  margin: 5px 0;
+  display: inline-block;
+}
+
+.source-credits > ul li span {
+  font-weight: 500;
+  display: block;
+}
