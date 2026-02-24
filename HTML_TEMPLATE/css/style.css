@@ -3308,7 +3308,7 @@ body.lightmode .case-studies-content::before {
 /* ================== 35. Guide Components ================== */
 
 .guide-banner {
-  background-image: url("../image/dummy-img-1920x900.jpg");
+  background-image: url("../image/1920x900.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
